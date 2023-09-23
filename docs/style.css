@@ -132,7 +132,9 @@ footer ul li {
 }
 
 
-
+.list-group-item {
+  width: 100%; !important
+}
 
 .progress-bar {
   width: 100px;
@@ -149,8 +151,6 @@ footer ul li {
   font-size: 12px;
   text-align: center;
 }
-
-
 
 
 .skill-graph {
