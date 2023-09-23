@@ -110,9 +110,9 @@ footer ul li {
     flex-wrap: wrap;
   }
 
-  li {
+/*  li {
     width: 50%;
-  }
+  }*/
 
   h4 {
     font-size: 1em;
@@ -133,7 +133,7 @@ footer ul li {
 
 
 .list-group-item {
-  width: 100%; !important
+  /*width: 100%; !important*/
 }
 
 .progress-bar {
