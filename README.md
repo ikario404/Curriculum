@@ -2,4 +2,9 @@
 A github page for my CV
 
 
-[link](https://ikario404.github.io/docs)
+- [Home](https://ikario404.github.io/)
+- [CV](https://ikario404.github.io/cv)
+- [services](https://ikario404.github.io/services)
+- [linkedin](/)
+
+
