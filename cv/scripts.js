@@ -1,11 +1,11 @@
 // Créez les données du graphique
         // Créez les données du graphique
     const data = {
-      labels: ["Récolte et stockage de donnée", "Indicateurs et aide à la décision", "Développement projets et outils d'analyses", "Enseignement et partage de connaissance"],
+      labels: ["R", "Python", "Pandas", "Docker" ,"Git", "Leaflet"],
       datasets: [
         {
           label: "Mes compétences",
-          data: [9, 10, 6, 7, 5],
+          data: [9, 10, 8, 7, 6, 5],
           fill: true,
           backgroundColor: [
                 'rgba(255, 99, 132)',
