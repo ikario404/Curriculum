@@ -1,33 +1,39 @@
 // Créez les données du graphique
         // Créez les données du graphique
     const data = {
-      labels: ["Qualité", "Rapidité", "Efficacité", "Coût", "Sécurité"],
+      labels: ["Récolte et stockage de donnée", "Indicateurs et aide à la décision", "Développement projets et outils d'analyses", "Enseignement et partage de connaissance"],
       datasets: [
         {
-          label: "Votre entreprise",
-          data: [8, 7, 9, 6, 10],
+          label: "Mes compétences",
+          data: [9, 10, 6, 7, 5],
           fill: true,
-          backgroundColor: "rgb(0, 255, 0)",
-          borderColor: "rgb(0, 255, 0)",
+          backgroundColor: [
+                'rgba(255, 99, 132)',
+                'rgba(255, 159, 64)',
+                'rgba(255, 205, 86)',
+                'rgba(75, 192, 192)',
+                'rgba(54, 162, 235)',
+                'rgba(153, 102, 255)',
+                'rgba(201, 203, 207)'
+              ]
         },
-        {
+        /*{
           label: "Concurrente",
           data: [6, 8, 7, 9, 5],
           fill: true,
           backgroundColor: "rgb(255, 0, 0)",
           borderColor: "rgb(255, 0, 0)",
-        },
+        },*/
       ],
     };
 
     // Créez le graphique
     const myChartSmall = new Chart(document.getElementById("myChartSmall"), {
-      type: "radar",
+      type: "polarArea",
       data,
       options: {
         scale: {
-          pointRadius: 1,
-          lineTension: 0.1,
+          
         },
       },
     });
@@ -118,6 +124,3 @@ createLineChart(lineData, lineOptions);
 createBarChart(barData, barOptions);
 
 
-
-
-console.log("SNIIIIIIIIIIIIIIIIF");
